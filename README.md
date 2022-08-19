@@ -1,4 +1,5 @@
 #  Curso de Front-end com Angular da desenvolvedor.io
 
-- Para conhecer o FrameWork angular.
-- Utilizando em algumas aulas o Bootsrap
+- criar aplicações e modulos
+- sistema de roteamento de acessos do menu <nav>
+- Utilizando no projeto o framework Bootsrap
