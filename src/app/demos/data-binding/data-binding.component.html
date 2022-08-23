@@ -1,0 +1,55 @@
+<div class="container main-container">
+<h5>interpolação</h5>
+
+<strong>Aqui vai aparecer o numero: {{contador}} </strong>
+
+<br><br><br>
+
+<h5>Property binding</h5>
+
+<button class="btn btn-info" [disabled]="contador >= 10">Limitado</button>
+
+<br><br>
+
+<img [src]="UrlImagem"  height="50px" width="50px"/>
+
+<br><br><br>
+
+<h5>Event binding</h5>
+
+
+<button class="btn btn-warning" (click)="botao()">Aperte</button>
+
+<button class="btn btn-danger" (click)="zerar()" [disabled]="contador < 10" >zerar contador</button>
+
+<br><br><br>
+
+<h5>Two-way binding</h5>
+
+<br>
+
+<!-- <input type="text" (keyup)="KeyUp($event)" placeholder="Digite seu nome">
+
+<br><br>
+
+<strong>Aqui aparecerá o nome digitado: {{nome}}</strong> -->
+
+
+<!-- <input type="text"  [ngModel]="nome" (ngModelChange)=" nome = $event ">
+
+<br><br>
+
+<strong>Aqui aparecerá o nome digitado: {{nome}}</strong> -->
+
+
+<input type="text"  [(ngModel)]="nome" placeholder="digite seu nome">
+
+<br><br>
+
+<strong >Aqui aparecerá o nome digitado: {{nome}}</strong>
+
+
+
+
+
+</div>
