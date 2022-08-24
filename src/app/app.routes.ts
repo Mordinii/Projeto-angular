@@ -12,5 +12,6 @@ export const rootRouterConfig: Routes = [
         {path: "contato", component: ContatoComponent},
         {path: "sobre", component: SobreComponent},
         {path: "features", component: Features},
-        {path: "produtos", component: ListaProdutoComponent}
+        {path: "produtos", component: ListaProdutoComponent},
+        {path: "produto-detalhe/:id", component: ListaProdutoComponent}
     ];

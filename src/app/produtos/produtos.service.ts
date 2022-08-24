@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from '@angular/common/http';
-import { produto } from "./produto";
+import { Produto } from "./produto";
 import { Observable } from "rxjs";
 
 
@@ -14,9 +14,9 @@ export class ProdutoService{
 
     constructor(private http: HttpClient) { }
 
-    obterProduto(): Observable<produto[]> {
+    obterProduto(): Observable<Produto[]> {
        return this.http
-       .get<produto[]>( this.UrlServiceV1 + "produtos");
+       .get<Produto[]>( this.UrlServiceV1 + "produtos");
 
 
     }

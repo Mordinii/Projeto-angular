@@ -1,11 +1,11 @@
 
+export class Produto {
 
-export class produto{ 
-    
-    id: string | undefined;
-    name: string | undefined ;
-    description: string | undefined;
-    price: string | undefined;
-    available: boolean | undefined
-    
+    id: string | undefined ;
+    nome: string | undefined ;
+    valor: string  | undefined ;
+    promocao: boolean | undefined ;
+    valorPromo: string | undefined ;
+    imagem: string  | undefined
+
 }
